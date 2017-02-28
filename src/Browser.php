@@ -196,7 +196,7 @@ class Browser
     public function screenshot($name)
     {
         $this->driver->takeScreenshot(
-            sprintf('%s/%s.png', rtrim(static::$storeScreenshotsAt, '/'), $name)
+            sprintf('%s/%s.png', rtrim(static::$storeScreenshotsAt, 'tests/Browser/screenshots'), $name)
         );
 
         return $this;
