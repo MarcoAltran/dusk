@@ -15,6 +15,7 @@ class BrowserTest extends PHPUnit_Framework_TestCase
         $browser->visit('/login');
     }
 
+
     public function test_visit_with_page_object()
     {
         $driver = Mockery::mock(StdClass::class);
