@@ -1,5 +1,5 @@
-
 <?php
+
 namespace Laravel\Dusk;
 use Symfony\Component\Process\Process;
 trait SupportsChrome
