@@ -40,7 +40,7 @@ class Browser
      *
      * @var string
      */
-    public static $storeConsoleLogAt;
+    public static $storeConsoleLogAt = 'tests/Browser/screenshot';
 
     /**
      * Get the callback which resolves the default user to authenticate.
