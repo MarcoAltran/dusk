@@ -33,7 +33,7 @@ class Browser
      *
      * @var string
      */
-    public static $storeScreenshotsAt = 'tests/Browser/screenshot';
+    public static $storeScreenshotsAt = 'tests/Browser/screenshots';
 
     /**
      * The directory that will contain any console logs.
