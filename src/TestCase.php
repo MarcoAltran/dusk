@@ -39,9 +39,9 @@ abstract class TestCase extends FoundationTestCase
     {
         Browser::$baseUrl = $this->baseUrl();
 
-        Browser::$storeScreenshotsAt = base_path('tests/Browser/screenshots');
+        Browser::$storeScreenshotsAt = 'tests/Browser/screenshots';
 
-        Browser::$storeConsoleLogAt = base_path('tests/Browser/console');
+        Browser::$storeConsoleLogAt = 'tests/Browser/console';
 
         Browser::$userResolver = function () {
             return $this->user();
