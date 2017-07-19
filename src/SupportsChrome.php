@@ -49,6 +49,7 @@ trait SupportsChrome
     {
         return (new ProcessBuilder())
                 ->setPrefix(realpath(__DIR__.'/../bin/chromedriver-'.static::driverSuffix()))
+                ->setArguments(['--no-sandbox' => ''])
                 ->getProcess()
                 ->setEnv(static::chromeEnvironment());
     }
